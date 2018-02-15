@@ -1,4 +1,4 @@
-var Emitter = require('events');//Node module
+var Emitter = require('./emitter');//Node module
 
 var emitr = new Emitter();
 
