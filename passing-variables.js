@@ -1,4 +1,4 @@
-//pass by value
+//pass by value (Supported by primitive types eg.number, string & boolean)
 function func1(b) {
     b = 2;
 }
@@ -7,7 +7,7 @@ console.log(a);
 func1(a);
 console.log(a);
 
-//pass by reference
+//pass by reference (Supported by non-primitive types eg.objects & arrays)
 function func2(d) {
     d.prop1 = function () { };
     d.prop2 = {};

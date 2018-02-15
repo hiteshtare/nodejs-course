@@ -7,7 +7,7 @@ console.log(obj.prop1);
 console.log(obj['prop1']);
 
 var prop_name = 'prop1';
-console.log(obj[prop_name]);
+console.log(obj[prop_name]);//Property access dynamic using string name
 
 //array and functions
 var arr = [];

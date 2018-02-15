@@ -1,3 +1,4 @@
+//Pattern 5
 var greeting = "Hello from Greet 5";
 
 var greet = function () {
@@ -5,5 +6,5 @@ var greet = function () {
 }
 
 module.exports = {
-    greet: greet
+    greet: greet // as name/value pair
 };

@@ -1,3 +1,4 @@
+//Pattern 3
 function Greetr() {
     this.greeting = "Hello! from Greeting 3";
     this.greet = function () {
@@ -5,4 +6,4 @@ function Greetr() {
     }
 }
 
-module.exports = new Greetr();//Create a new object on export
+module.exports = new Greetr();//Creates a new object on return
