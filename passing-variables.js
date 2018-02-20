@@ -5,7 +5,7 @@ function func1(b) {
 var a = 1;
 console.log(a);
 func1(a);
-console.log(a);
+console.log(a);//Value of a remains unchanged due to difference location references
 
 //pass by reference (Supported by non-primitive types eg.objects & arrays)
 function func2(d) {
@@ -17,4 +17,4 @@ var c = {};
 c.prop1 = {};
 console.log(c);
 func2(c);
-console.log(c);
+console.log(c);//Value of c changed due to same location references

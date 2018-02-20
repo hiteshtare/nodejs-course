@@ -20,7 +20,7 @@ greet3new.greet();
 greet3new.greeting = "Changed to new new Greet!";//Pass by Reference
 
 var greet3newnew = require('./greet3');
-greet3newnew.greet();
+greet3newnew.greet();//Changed detected due same object references in module
 //Pattern 3
 
 //Pattern 4
@@ -30,7 +30,7 @@ grt4.greet();
 grt4.greeting = "Changed to Greet!";
 
 var grt5 = new Greetr();
-grt5.greet();
+grt5.greet();//Changed not detected as new object is created everytime
 //Pattern 4
 
 //Pattern 5

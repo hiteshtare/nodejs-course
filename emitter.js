@@ -7,7 +7,7 @@ function Emitter() {
 // For example fire an event on FileDownload or StreamOpen
 Emitter.prototype.on = function (type, listener) {
     this.events[type] = this.events[type] || [];
-    this.events[type].push(listener);
+    this.events[type].push(listener);//functions are first-class
 }
 
 // Invoking event on type recieved (emit)

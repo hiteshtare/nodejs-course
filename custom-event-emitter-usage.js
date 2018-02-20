@@ -4,10 +4,10 @@ var emitr = new Emitter();
 
 //Event Listener for greet
 emitr.on('greet', function () {
-    console.log("Somewhere, someone said Hello :-)");
+    console.log("Somewhere, someone said Hello :-) - greet");
 });
 emitr.on('greet', function () {
-    console.log("Somewhere, someone said TGOD B-)");
+    console.log("Somewhere, someone said TGOD B-) - greet");
 });
 //Event Listener for greet
 
@@ -16,7 +16,7 @@ emitr.emit('greet');//Event Emitter
 
 //Event Listener for bye
 emitr.on('bye', function () {
-    console.log("Good bye!");
+    console.log("Good bye! - bye");
 });
 
 

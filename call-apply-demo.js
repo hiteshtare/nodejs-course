@@ -1,5 +1,5 @@
 var person = {
-    name: 'Hitesh',
+    name: 'Hitesh',//propert owned by a class
     greet: function (param1, param2) {
         console.log(`Hello ${this.name}! Params are ${param1} ${param2}`);
     }

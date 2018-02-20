@@ -1,6 +1,6 @@
 //user defined function
 function greet() {
-    console.log('hi');
+    console.log('Hi! from greet');
 }
 
 greet();
@@ -15,7 +15,7 @@ logGreet(greet);
 
 //funtion expression anonymous(without name)
 var mygreet = function () {
-    console.log("Hello Hitesh!");
+    console.log("Hello Hitesh! from mygreet");
 }
 
 mygreet();
@@ -25,5 +25,5 @@ logGreet(mygreet);
 
 //use function expression on the fly
 logGreet(function () {
-    console.log("Holla Hitesh!");
+    console.log("Holla Hitesh! from on-the-fly");
 });

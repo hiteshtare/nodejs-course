@@ -4,7 +4,7 @@ var view = new Int32Array(buffer);//Integer array using 32 as bit size
 //Here only two numbers can be stored considering with buffer size.
 view[0] = '2';
 view[1] = '53';
-view[1] = '5';
 view[2] = '5';
 console.log(view);
-
+view[1] = '5';
+console.log(view);

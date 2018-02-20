@@ -31,5 +31,6 @@ sharda.greet();
 
 console.log(trupti.__proto__);
 console.log(sharda.__proto__);
-console.log(trupti.__proto__ === sharda.__proto__);//Equality on Inheritance due to Prototyping
+//Equality on Inheritance due to Prototyping on Object References
+console.log(trupti.__proto__ === sharda.__proto__);
 
